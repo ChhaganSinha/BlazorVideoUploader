@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Server", "VideoUploaderAndMultiselectDropdown\Server\VideoUploaderAndMultiselectDropdown.Server.csproj", "{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Client", "VideoUploaderAndMultiselectDropdown\Client\VideoUploaderAndMultiselectDropdown.Client.csproj", "{52971458-6276-4067-9232-43D28DA730C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Shared", "VideoUploaderAndMultiselectDropdown\Shared\VideoUploaderAndMultiselectDropdown.Shared.csproj", "{90E3F07C-4697-4946-81D6-B8498E87665E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52971458-6276-4067-9232-43D28DA730C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52971458-6276-4067-9232-43D28DA730C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52971458-6276-4067-9232-43D28DA730C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52971458-6276-4067-9232-43D28DA730C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E3F07C-4697-4946-81D6-B8498E87665E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E3F07C-4697-4946-81D6-B8498E87665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E3F07C-4697-4946-81D6-B8498E87665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E3F07C-4697-4946-81D6-B8498E87665E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93304B61-4565-42B7-84A5-3CB4D30DEA95}
+	EndGlobalSection
+EndGlobal
