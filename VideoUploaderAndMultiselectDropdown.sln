@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Server", "VideoUploaderAndMultiselectDropdown\Server\VideoUploaderAndMultiselectDropdown.Server.csproj", "{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoUploaderAndMultiselectDropdown.Server", "VideoUploaderAndMultiselectDropdown\Server\VideoUploaderAndMultiselectDropdown.Server.csproj", "{1B9AFA4D-EC10-4B1A-8D52-8473E040BB07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Client", "VideoUploaderAndMultiselectDropdown\Client\VideoUploaderAndMultiselectDropdown.Client.csproj", "{52971458-6276-4067-9232-43D28DA730C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoUploaderAndMultiselectDropdown.Client", "VideoUploaderAndMultiselectDropdown\Client\VideoUploaderAndMultiselectDropdown.Client.csproj", "{52971458-6276-4067-9232-43D28DA730C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoUploaderAndMultiselectDropdown.Shared", "VideoUploaderAndMultiselectDropdown\Shared\VideoUploaderAndMultiselectDropdown.Shared.csproj", "{90E3F07C-4697-4946-81D6-B8498E87665E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoUploaderAndMultiselectDropdown.Shared", "VideoUploaderAndMultiselectDropdown\Shared\VideoUploaderAndMultiselectDropdown.Shared.csproj", "{90E3F07C-4697-4946-81D6-B8498E87665E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

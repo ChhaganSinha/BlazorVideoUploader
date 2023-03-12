@@ -1,18 +1,70 @@
 ﻿@page "/counter"
 
-<PageTitle>Counter</PageTitle>
+<HxMultiSelect Label="Band members"
+               TItem="Person"
+               TValue="string"
+               Data="@people"
+               @bind-Value="@selectedPersonsInitials"
+               TextSelector="@(p => p.Name)"
+               ValueSelector="@(p => p.Initials)"
+               EmptyText="-select values-"
 
-<h1>Counter</h1>
+               NullDataText="Loading band members..." />
 
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<p class="mt-3">Selected initials: @String.Join(' ', selectedPersonsInitials)</p>
 
 @code {
-    private int currentCount = 0;
+    private List<Person> people;
+    private List<string> selectedPersonsInitials { get; set; } = new();
 
-    private void IncrementCount()
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+
+        people = new List<Person>
+        {
+            new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH"),
+            new Person("John Doe", "JD"),
+            new Person("Jane Doe", "JD"),
+            new Person("Bob Smith", "BS"),
+            new Person("Alice Johnson", "AJ"),
+             new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH"),
+            new Person("John Doe", "JD"),
+            new Person("Jane Doe", "JD"),
+            new Person("Bob Smith", "BS"),
+            new Person("Alice Johnson", "AJ"),
+             new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH"),
+            new Person("John Doe", "JD"),
+            new Person("Jane Doe", "JD"),
+            new Person("Bob Smith", "BS"),
+            new Person("Alice Johnson", "AJ"),
+             new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH"),
+            new Person("John Doe", "JD"),
+            new Person("Jane Doe", "JD"),
+            new Person("Bob Smith", "BS"),
+            new Person("Alice Johnson", "AJ"),
+             new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH"),
+            new Person("John Doe", "JD"),
+            new Person("Jane Doe", "JD"),
+            new Person("Bob Smith", "BS"),
+            new Person("Alice Johnson", "AJ"),
+
+        };
     }
+
+    private record Person(string Name, string Initials);
 }
