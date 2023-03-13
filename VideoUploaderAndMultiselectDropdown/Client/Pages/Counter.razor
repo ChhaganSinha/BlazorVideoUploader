@@ -1,4 +1,5 @@
 ﻿@page "/counter"
+@inject IConfiguration _config
 
 <HxMultiSelect Label="Band members"
                TItem="Person"
@@ -19,7 +20,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-
+        var myName = _config.GetValue<string>("Name");
         people = new List<Person>
         {
             new Person("Starr Ringo", "RS"),
